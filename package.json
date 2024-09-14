@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "three": "^0.168.0"
+    "three": "^0.168.0",
+    "three-addons": "^1.2.0",
+    "three-mesh-ui": "^6.5.4"
   },
   "devDependencies": {
     "vite": "^5.4.5"
