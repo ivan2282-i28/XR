@@ -75,7 +75,7 @@ function loadSound() {
 
     sound = new THREE.Audio(listener);
     const audioLoader = new THREE.AudioLoader();
-    audioLoader.load('/src/system/audio/sound.wav', (buffer) => {
+    audioLoader.load('/src/System/audio/sound.wav', (buffer) => {
         sound.setBuffer(buffer);
         sound.setLoop(false);
         sound.setVolume(0.5);
@@ -86,7 +86,7 @@ function loadSound() {
 function loadModel() {
     const loader = new GLTFLoader();
     loader.load(
-        '/src/system/models/Chair2.glb',
+        '/src/System/models/Chair2.glb',
         (gltf) => {
             chair = gltf.scene;
             chair.scale.set(1, 1, 1);
