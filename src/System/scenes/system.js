@@ -4,6 +4,7 @@ import { VRButton } from 'three/addons/webxr/VRButton.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { DragControls } from 'three/examples/jsm/controls/DragControls.js';
 import { XRControllerModelFactory } from 'three/examples/jsm/webxr/XRControllerModelFactory.js';
+import Chair from '/src/System/models/Chair2.glb?url'
 
 let camera, scene, renderer, controls, dragControls, chair, listener, sound;
 let controller1, controller2, controllerGrip1, controllerGrip2;

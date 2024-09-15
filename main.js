@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-const modules = import.meta.glob('./src/*')
 
 let camera, scene, renderer;
 
